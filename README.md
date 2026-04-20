@@ -1,1 +1,1 @@
-# car-rental
+# golobe-travel-agency
