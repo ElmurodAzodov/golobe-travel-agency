@@ -2,30 +2,64 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  border: none;
-  outline: none;
-  transition: 0.5s;
-  text-decoration: none;
+  transition: 0.7s;
+  font-family: "Roboto Slab", serif;
 }
 
 .hero {
   width: 1380px;
-  height: 581px;
-  margin: 16px auto;
-  border-radius: 24px;
+  height: 580px;
   background:
-    linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.3)),
+    linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.2)),
     url(../img/banner.jpg) center/cover no-repeat;
+  border: 1px solid black;
+  margin: 20px auto;
+  border-radius: 24px;
+  padding: 20px;
 }
 
+.hero a {
+  text-decoration: none;
+  color: snow;
+}
+.hero i {
+  color: snow;
+}
+ul li {
+  list-style: none;
+}
 .hero-navbar {
-  width: 1380px;
-  height: 96px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+.logo {
+  font-size: 40px;
+  border: 1px solid red;
+}
+.frame {
+  border: 1px solid red;
+  width: 230px;
+}
+.frame ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-.hero-navbar a {
-  color: snow;
+.login {
+  width: 210px;
+}
+
+.login ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login a {
+  padding: 10px 24px;
+  border-radius: 10px;
+}
+.sign-up {
+  background-color: snow;
 }
