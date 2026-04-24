@@ -35,10 +35,8 @@ ul li {
 }
 .logo {
   font-size: 40px;
-  border: 1px solid red;
 }
 .frame {
-  border: 1px solid red;
   width: 230px;
 }
 .frame ul {
@@ -62,4 +60,5 @@ ul li {
 }
 .sign-up {
   background-color: snow;
+  color: black !important;
 }
