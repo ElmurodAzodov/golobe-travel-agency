@@ -32,8 +32,9 @@ ul li {
   justify-content: space-around;
   align-items: center;
 }
-.logo {
-  font-size: 40px;
+.logo a {
+  font-size: 26px;
+  color: #8DD3BB;
 }
 .frame {
   width: 230px;
