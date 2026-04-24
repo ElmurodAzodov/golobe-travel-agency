@@ -12,7 +12,6 @@
   background:
     linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.2)),
     url(../img/banner.jpg) center/cover no-repeat;
-  border: 1px solid black;
   margin: 20px auto;
   border-radius: 24px;
   padding: 20px;
@@ -61,4 +60,29 @@ ul li {
 .sign-up {
   background-color: snow;
   color: black !important;
+}
+
+.hero-content {
+  width: 750px;
+  height: 200px;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.helping-other {
+  font-size: 45px;
+  color: snow;
+}
+
+.live-travel {
+  font-size: 80px;
+  color: snow;
+}
+
+.hero-content p {
+  font-size: 20px;
+  color: snow;
 }
