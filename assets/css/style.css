@@ -75,11 +75,13 @@ ul li {
 .helping-other {
   font-size: 45px;
   color: snow;
+  text-transform: capitalize;
 }
 
 .live-travel {
   font-size: 80px;
   color: snow;
+  text-transform: uppercase;
 }
 
 .hero-content p {
