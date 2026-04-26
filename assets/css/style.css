@@ -95,9 +95,10 @@ form {
   width: 1232px;
   height: 280px;
   margin: -100px auto;
+  z-index: 5;
+  box-shadow: 0px 0px 5px rgb(0,0,0,0.1);
   border-radius: 16px;
   background-color: #fff;
-  border: 1px solid black;
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -139,5 +140,19 @@ form .submit {
   display: flex;
   justify-content: end;
 }
-
-
+form .submit li {
+  width: 144px;
+  height: 48px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+}
+form .submit .btn input {
+  border: none;
+  background-color: transparent;
+}
+form .submit .btn {
+  border-radius: 5px;
+  background-color: #8dd3bb;
+}
