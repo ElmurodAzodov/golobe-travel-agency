@@ -98,6 +98,10 @@ form {
   border-radius: 16px;
   background-color: #fff;
   border: 1px solid black;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .fieldset {
@@ -105,4 +109,9 @@ form {
   justify-content: space-around;
   border: 1px solid black;
   align-items: center;
+}
+
+form .submit {
+  display: flex;
+  justify-content: end;
 }
