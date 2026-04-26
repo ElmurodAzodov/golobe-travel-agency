@@ -104,11 +104,35 @@ form {
   justify-content: space-between;
 }
 
+form .find {
+  display: flex;
+  width: 230px;
+  justify-content: space-between;
+}
+
+form .find .li {
+  border-right: 1px solid black;
+  padding-right: 10px;
+}
+
+form a {
+  text-decoration: none;
+  color: #000;
+}
 .fieldset {
   display: flex;
   justify-content: space-around;
-  border: 1px solid black;
   align-items: center;
+}
+
+.fieldset fieldset {
+  padding: 4px 30px;
+  border-radius: 5px;
+}
+
+.fieldset input,
+select {
+  border: none;
 }
 
 form .submit {
