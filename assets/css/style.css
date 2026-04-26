@@ -96,7 +96,7 @@ form {
   height: 280px;
   margin: -100px auto;
   z-index: 5;
-  box-shadow: 0px 0px 5px rgb(0,0,0,0.1);
+  box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.1);
   border-radius: 16px;
   background-color: #fff;
   padding: 30px;
@@ -129,11 +129,14 @@ form a {
 .fieldset fieldset {
   padding: 4px 30px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .fieldset input,
-select {
+select,
+option {
   border: none;
+  cursor: pointer;
 }
 
 form .submit {
@@ -155,4 +158,5 @@ form .submit .btn input {
 form .submit .btn {
   border-radius: 5px;
   background-color: #8dd3bb;
+  cursor: pointer;
 }
