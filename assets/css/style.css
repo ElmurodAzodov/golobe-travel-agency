@@ -254,11 +254,19 @@ footer {
 .footer {
   width: 1232px;
   height: 140px;
-  border: 1px solid red;
   margin: auto;
   transform: translateY(-70px);
   display: flex;
   justify-content: space-evenly;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer ul li {
+  margin: 5px;
 }
 
 .golobe a {
