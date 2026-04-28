@@ -251,6 +251,20 @@ footer {
   display: flex;
 }
 
+.subscribe-newsletter-left .email {
+  width: 473px;
+  height: 56px;
+  padding: 0px 10px;
+  margin-right: 10px;
+}
+
+.subscribe-newsletter-left .subscribe {
+  width: 104px;
+  height: 56px;
+  background-color: #111;
+  color: #fff;
+}
+
 .footer {
   width: 1232px;
   height: 140px;
