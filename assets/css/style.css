@@ -260,3 +260,9 @@ footer {
   display: flex;
   justify-content: space-evenly;
 }
+
+.golobe a {
+  text-decoration: none;
+  font-size: 26px;
+  color: #467a68;
+}
