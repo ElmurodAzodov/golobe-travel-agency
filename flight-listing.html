@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/flight-listing.css" />
+  </head>
+  <body>
+    <nav>
+      <header>
+        <div class="header-left">
+          <ul>
+            <li>
+              <i class="fa-solid fa-plane"></i><a href="#">Find Flight</a>
+            </li>
+            <li><i class="fa-solid fa-bed"></i><a href="#">Find Stays</a></li>
+          </ul>
+        </div>
+        <div class="logo">
+          <b><a href="#">golobe</a></b>
+        </div>
+        <div class="header-right">
+          <ul>
+            <li><i class="fa-solid fa-heart"></i><a href="#">Favourites</a></li>
+            <li>
+              <img src="./assets/img/admin.png" alt="" /><a href="#">John D.</a>
+            </li>
+          </ul>
+        </div>
+      </header>
+    </nav>
+
+    <form action="#">
+      <fieldset>
+        <legend>From-to</legend>
+        <input type="text" name="" id="" placeholder="Lahore - Karache" />
+        <i class="fa-solid fa-right-left"></i>
+      </fieldset>
+      <fieldset>
+        <legend>Trip</legend>
+        <select name="" id="">
+          <option value="return">Return</option>
+          <option value="to_go">To go</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Depart-Return</legend>
+        <input type="date" name="" id="" />
+        <span> - </span>
+        <input type="date" name="" id="" />
+      </fieldset>
+      <fieldset>
+        <legend>Passenger-Class</legend>
+        <input type="text" name="" id="" placeholder="1 Passenger, Economy" />
+      </fieldset>
+      <button><i class="fa-solid fa-search"></i></button>
+    </form>
+  </body>
+</html>
