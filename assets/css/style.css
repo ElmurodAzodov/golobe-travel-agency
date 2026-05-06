@@ -251,12 +251,43 @@ footer {
   display: flex;
 }
 
+.subscribe-newsletter-left .email {
+  width: 473px;
+  height: 56px;
+  padding: 0px 10px;
+  margin-right: 10px;
+}
+
+.subscribe-newsletter-left .subscribe {
+  width: 104px;
+  height: 56px;
+  background-color: #111;
+  color: #fff;
+}
+
 .footer {
   width: 1232px;
   height: 140px;
-  border: 1px solid red;
   margin: auto;
   transform: translateY(-70px);
   display: flex;
   justify-content: space-evenly;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer ul li {
+  margin: 5px;
+}
+
+.golobe a {
+  text-decoration: none;
+  font-size: 26px;
+  color: #467a68;
+}
+.golobe div i {
+  margin: 2px;
 }
