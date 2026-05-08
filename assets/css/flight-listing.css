@@ -91,11 +91,16 @@ form button {
 }
 
 /* filters */
+.filters {
+  width: 1232px;
+  height: 1428px;
+  margin: auto;
+  border: 2px solid red;
+}
 
 .filter {
   width: 343px;
   height: 880px;
-  margin: auto;
   border: 1px solid magenta;
   display: flex;
   flex-direction: column;
