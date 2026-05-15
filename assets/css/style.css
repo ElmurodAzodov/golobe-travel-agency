@@ -211,17 +211,35 @@ form .submit .btn {
   border-radius: 8px;
 }
 
-/* footer */
-.div {
-  width: 100%;
-  height: 100vh;
+/* flights */
+.flights {
+  width: 1232px;
+  height: 560px;
+  margin: auto;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+.flights > div {
+  width: 604px;
+  height: 560px;
+}
+.flights > .flights-card1 {
+  background: linear-gradient(rgb(0,0,0,0.2), rgb(0,0,0,0.2)), url(../img/flights1.jpg) center/cover no-repeat;
+
+}
+.flights > .flights-card2 {
+  background: linear-gradient(rgb(0,0,0,0.2), rgb(0,0,0,0.2)), url(../img/flights2.jpg) center/cover no-repeat;
+
+}
+
+/* footer */
 footer {
   width: 100%;
   height: 422px;
   background-color: #8dd3bb;
   margin: auto;
-  z-index: -1;
 }
 
 .subscribe-newsletter {
@@ -233,7 +251,6 @@ footer {
   justify-content: space-between;
   align-items: center;
   margin: auto;
-  z-index: 10;
   transform: translateY(-160px);
   padding: 20px;
 }
